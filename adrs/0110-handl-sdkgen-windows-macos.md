@@ -3,13 +3,10 @@ title: Handl SDK Generator — Windows and macOS C Backend Support
 type: adr
 date: 2026-10-28
 status: proposed
+status_note: Proposed.
 ---
 
 # ADR-0110: Handl SDK Generator — Windows and macOS C Backend Support
-
-## Status
-
-Proposed.
 
 ## Context
 

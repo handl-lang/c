@@ -3,6 +3,7 @@ title: '`sdkgen-c` backend ownership'
 type: adr
 date: 2026-10-28
 status: accepted
+status_note: Accepted — extracted in ADR-0128 Phase 2 (`modules/sdkgen-c`).
 ---
 
 # ADR-0136: `sdkgen-c` backend ownership
@@ -34,7 +35,3 @@ cross-cutting `plugin-sdkgen` IR / `plugin-sdkgen-emitter-file`.
   not a crate.
 - Adding a C-family target is an edit here plus a registry entry in the
   consuming host — never a change to the platform dispatcher.
-
-## Status
-
-Accepted — extracted in ADR-0128 Phase 2 (`modules/sdkgen-c`).

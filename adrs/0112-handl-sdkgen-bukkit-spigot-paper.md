@@ -3,13 +3,10 @@ title: Handl SDK Generator — Bukkit, Spigot, Paper Backend
 type: adr
 date: 2026-10-28
 status: proposed
+status_note: Proposed.
 ---
 
 # ADR-0112: Handl SDK Generator — Bukkit, Spigot, Paper Backend
-
-## Status
-
-Proposed.
 
 ## Context
 
