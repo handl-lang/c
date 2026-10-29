@@ -1,3 +1,10 @@
+---
+title: '`sdkgen-c` backend ownership'
+type: adr
+date: 2026-10-28
+status: accepted
+---
+
 # ADR-0136: `sdkgen-c` backend ownership
 
 ## Context

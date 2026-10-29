@@ -1,3 +1,9 @@
+---
+title: '`project/` — c'
+type: readme
+date: 2026-10-28
+---
+
 # `project/` — c
 
 Docs for the `c` target live on this `project` branch, mounted as the

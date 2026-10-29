@@ -1,3 +1,10 @@
+---
+title: Handl SDK Generator — JVM Backend
+type: adr
+date: 2026-10-28
+status: proposed
+---
+
 # ADR-0111: Handl SDK Generator — JVM Backend
 
 ## Status

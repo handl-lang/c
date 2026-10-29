@@ -1,3 +1,9 @@
+---
+title: Task 0128 — `c/` extraction (ADR-0128 Phase 2)
+type: task
+date: 2026-10-28
+---
+
 # Task 0128 — `c/` extraction (ADR-0128 Phase 2)
 
 Expand ADR-0128 Phase 2 for this repo. The docs are already on
