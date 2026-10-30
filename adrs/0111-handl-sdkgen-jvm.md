@@ -51,7 +51,7 @@ signatures (directly or from `.class` / `.jar` metadata) and produces
 
 ## Enforcement
 
-- Code and tests are named in the design doc.
+- `plugin-sdkgen-backend-jvm` — where this is true.
 
 ## Design
 
