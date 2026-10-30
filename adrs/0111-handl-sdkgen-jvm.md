@@ -6,16 +6,11 @@ status: proposed
 status_note: Proposed.
 ---
 
+
 # ADR-0111: Handl SDK Generator — JVM Backend
 
-## Context
-
-[ADR-0107 — Handl SDK Generator](./0107-handl-sdk-generator.md) established a
-backend-agnostic IR (`SdkgenModule`) and a port-adapter emitter architecture. The
-first concrete backend is C / libclang. The next high-priority backend is the
-JVM, which lets Handl call Java libraries and native Java classes through JNI.
-
 ## Decision
+
 
 Add a `plugin-sdkgen-backend-jvm` crate that parses Java class / method
 signatures (directly or from `.class` / `.jar` metadata) and produces
@@ -38,16 +33,26 @@ signatures (directly or from `.class` / `.jar` metadata) and produces
 - Support class-name to package mapping, method overloads via name mangling, and
   static vs instance method dispatch.
 
+
+## Why
+
+[ADR-0107 — Handl SDK Generator](./0107-handl-sdk-generator.md) established a backend-agnostic IR (`SdkgenModule`) and a port-adapter emitter architecture. The first concrete backend is C / libclang. The next high-priority backend is the JVM, which lets Handl call Java libraries and native Java classes through JNI.
+
+## Not doing
+
+- none recorded — legacy record; the design doc lists what was deferred.
+
 ## Consequences
 
 - Handl can consume the huge ecosystem of JVM libraries.
 - A `jvm` client package must be designed and implemented, paralleling `ffi`.
 - Overloaded Java methods require a name-mangling scheme in the port.
 - This backend is higher priority than Bukkit / Spigot / Paper (ADR-0112) and
-  Windows / macOS C support (ADR-0110), because it is a prerequisite for the
-  Minecraft server backends.
 
-## References
+## Enforcement
 
-- [ADR-0107 — Handl SDK Generator](./0107-handl-sdk-generator.md)
-- `crates/plugin-sdkgen`
+- Code and tests are named in the design doc.
+
+## Design
+
+The full record (context, tables, phases, trade-offs): [`design/0111-handl-sdkgen-jvm.md`](../design/0111-handl-sdkgen-jvm.md).
