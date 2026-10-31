@@ -1,3 +1,10 @@
++++
+id = "ADR-0112"
+title = "ADR-0112: Handl SDK Generator — Bukkit, Spigot, Paper Backend"
+status = "open"
+priority = "medium"
++++
+
 ---
 title: Handl SDK Generator — Bukkit, Spigot, Paper Backend
 type: adr

@@ -1,3 +1,10 @@
++++
+id = "ADR-0111"
+title = "ADR-0111: Handl SDK Generator — JVM Backend"
+status = "open"
+priority = "medium"
++++
+
 ---
 title: Handl SDK Generator — JVM Backend
 type: adr

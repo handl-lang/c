@@ -1,3 +1,10 @@
++++
+id = "ADR-0110"
+title = "ADR-0110: Handl SDK Generator — Windows and macOS C Backend Support"
+status = "open"
+priority = "medium"
++++
+
 ---
 title: Handl SDK Generator — Windows and macOS C Backend Support
 type: adr

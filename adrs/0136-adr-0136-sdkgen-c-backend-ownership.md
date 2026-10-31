@@ -1,3 +1,10 @@
++++
+id = "ADR-0136"
+title = "ADR-0136: `sdkgen-c` backend ownership"
+status = "open"
+priority = "medium"
++++
+
 ---
 title: '`sdkgen-c` backend ownership'
 type: adr
