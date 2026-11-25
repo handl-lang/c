@@ -26,7 +26,7 @@ targets from `sdkgen-*` repos.
 ## Development
 
 No build here yet — nothing is extracted. When `modules/sdkgen-c` lands it
-follows the engine-* shape: `ci.sh` as the gate (fmt → clippy → test → doc) and
+follows the engine-* shape: `workflows/gate.yaml` as the gate (fmt → clippy → test → doc) and
 a committed `bupha.toml`.
 
 ## Documentation
