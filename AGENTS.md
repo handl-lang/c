@@ -25,7 +25,7 @@ ADR-0107).
 ## Verification
 
 No build yet — nothing is extracted. When `modules/*` lands it follows
-the engine-* shape: `ci.sh` as the gate (fmt → clippy → test → doc) and
+the engine-* shape: `workflows/gate.yaml` as the gate (fmt → clippy → test → doc) and
 a committed `bupha.toml`.
 
 <!-- myco:agent-awareness -->
